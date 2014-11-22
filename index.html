@@ -1,124 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Mark Husey</title>
 
-    <!-- Google Fonts, Arvo, Font-Awesome -->
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- Modal CSS -->
+    <link href="css/modal.css" rel="stylsheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
+</head>
 
- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="images/top_logo.png" alt="One Million Lines" title="One Million Lines"></a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!--
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                </a>
+                -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#media">Music</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Say Hi</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#who_we_are">WHO WE ARE</a></li>
-            <li><a href="#get_involved">GET INVOLVED</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+        <!-- /.container -->
+    </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Our goal is to inspire <br>Tallahassee to write 1,000,000<br> lines of code_</h1>
-        <p>All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
-        <p><a class="btn btn-danger btn-lg" role="button">Learn more &raquo;</a></p>
-        <img src="images/code.png" title="code.org logo" alt="Code.org">
-      </div>
-    </div>
-    <div id="who_we_are">
-      <div class="container homepage">
-        <img src="images/academy_brand.png" alt="Massive Academy" title="Massive Academy">
-        <h2>Who We Are</h2>
-        <hr>
-        <p>We are <a href="http://www.massiveacademy.com/" target="_blank">MASSIVE Academy</a>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
-      </div>
-    </div>
-    <div id="get_involved">
-      <div class="container homepage">
-        <h2>Get Involved</h2>
-        <hr>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="pre-intro-text">Hey, you. Thanks for dropping in. My name is</p>
+                        <h1 class="brand-heading">Mark<br>Husey.</h1>
+                        <hr>
+                        <p class="intro-text">Organist, Conductor, Accompanist, &amp; Tenor</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section">
         <div class="row">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3>Students</h3>
-            <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-            <p><a class="btn btn-default" href="#" role="button">Start Learning &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3>Educators</h3>
-            <p>Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
-            <p><a class="btn btn-default" href="#" role="button">Join the Initiative &raquo;</a></p>
-         </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-money fa-stack-1x fa-inverse"></i>
-            </span>
-            <h3>Sponsors</h3>
-            <p>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
-            <p><a class="btn btn-default" href="https://docs.google.com/forms/d/1hcHbLnlwKKikbPOBzBufU-rjJASYUccVyA7wDmTJn9E/viewform?usp=send_form" target="_blank" role="button">Give Support &raquo;</a></p>
-          </div>
+            <div class="col-md-6">
+                <p><i>Below you’ll find a collection of recordings spanning multiple years and disciplines. First though, a little</i></p>
+                <h2>About Me.</h2>
+            </div>
         </div>
-      </div>
-    </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was born and raised in Baltimore, Maryland and currently reside in Columbia, South Carolina.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most recently, I've been serving as the Director of Music &amp; Liturgy at historic Saint Peter’s Catholic Church in Columbia since 2006. I have previously been on the faculty rosters of the University of Miami and Florida International University while also serving as coach, accompanist, and tenor in the professional chorus of Florida Grand Opera. I've appeared as visiting vocal coach, tenor soloist, and accompanist with the opera and choral departments at the University of South Carolina School of Music, including during their Concert Choir’s 2008 Olympic Tour of China.</p>
+            </div>
+            <div class="col-md-6">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internationally, I've been blessed with opportunities to perform in Canada, England, Wales, Italy, Belgium, the Netherlands, Sweden, Finland, Estonia, and the Czech Republic, as well as being the first American organist to perform in Southwest Russia under the sponsorship of the State Philharmonia on Caucasus Mineral Waters.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've been featured as ensemble soloist with the Grammy-winning Atlanta Symphony Orchestra Chorus and Chamber Chorus, been broadcast on CBS This Morning, PBS, Public Radio International, and BBC Radio2, and been one of the few organists ever reviewed in Opera News.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="content-section">
+        <div class="media-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6 more-vids">
+                        <p>There's much more on Youtube. It's a long, arduous click away, but the trip is worth it.</p>
+                        <ul class="list-inline banner-social-buttons">
+                             <li>
+                                <a href="http://youtube.com/markhusey" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Mark Husey</span></a>
+                            </li>
+                            <li>
+                                <a href="http://youtube.com/visitstpeters" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">St. Peter&#39;s</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="liquid-container">
+                <div class="row">
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/FdM9kUtLNB0" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/schutz_mono.jpg" onMouseOver="this.src='img/schutz_full.jpg'" onMouseOut="this.src='img/schutz_mono.jpg'">
+                            <h3><span class="composers">Heinrich Schütz</span><br><span class="song-titles">"O lieber Herre Gott"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/W4MHl35t59g" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/rutter_mono.jpg" onMouseOver="this.src='img/rutter_full.jpg'" onMouseOut="this.src='img/rutter_mono.jpg'">
+                            <h3><span class="composers">John Rutter</span><br><span class="song-titles">"The Lord Bless You and Keep You"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/oVpC1QiD0PQ" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/castelnuovo_mono.jpg" onMouseOver="this.src='img/castelnuovo_full.jpg'" onMouseOut="this.src='img/castelnuovo_mono.jpg'">
+                            <h3><span class="composers">Mario Castelnuovo-Tedesco</span><br><span class="song-titles">"Op. 99, No. 3"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/vvWbm1JswUE" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/bach2_mono.jpg" onMouseOver="this.src='img/bach2_full.jpg'" onMouseOut="this.src='img/bach2_mono.jpg'">
+                            <h3><span class="composers">JS Bach</span><br><span class="song-titles">"Toccata in F"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/7TKQXJXBlwQ" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/cook_mono.jpg" onMouseOver="this.src='img/cook_full.jpg'" onMouseOut="this.src='img/cook_mono.jpg'">
+                            <h3><span class="composers">John Cook</span><br><span class="song-titles">"Fanfare"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/FxlHx1fwaFw" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/adams_mono.jpg" onMouseOver="this.src='img/adams_full.jpg'" onMouseOut="this.src='img/adams_mono.jpg'">
+                            <h3><span class="composers">Stephen Adams</span><br><span class="song-titles">"The Holy City"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/HtqDzHoVZSU" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/brahms_mono.jpg" onMouseOver="this.src='img/brahms_full.jpg'" onMouseOut="this.src='img/brahms_mono.jpg'">
+                            <h3><span class="composers">Johannes Brahms</span><br><span class="song-titles">"Passion Chorale"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/4rxnjrtVj24" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/husey2_mono.jpg" onMouseOver="this.src='img/husey2_full.jpg'" onMouseOut="this.src='img/husey2_mono.jpg'">
+                            <h3><span class="composers">Mark Husey</span><br><span class="song-titles">"Peragallo Organ Tour"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/YXwP7M3Yn8s" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/haydn_mono.jpg" onMouseOver="this.src='img/haydn_full.jpg'" onMouseOut="this.src='img/haydn_mono.jpg'">
+                            <h3><span class="composers">Joseph Haydn</span><br><span class="song-titles">"Organ Concerto in C"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/u7XBS-2K9LE" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/bach3_mono.jpg" onMouseOver="this.src='img/bach3_full.jpg'" onMouseOut="this.src='img/bach3_mono.jpg'">
+                            <h3><span class="composers">JS Bach</span><br><span class="song-titles">"Komm, heiliger Geist"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/to63x7oZ4Gs" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/messiaen_mono.jpg" onMouseOver="this.src='img/messiaen_full.jpg'" onMouseOut="this.src='img/messiaen_mono.jpg'">
+                            <h3><span class="composers">Olivier Messiaen</span><br><span class="song-titles">"Transports de joie"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/y--tEZr8R8g" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/pinkham_mono.jpg" onMouseOver="this.src='img/pinkham_full.jpg'" onMouseOut="this.src='img/pinkham_mono.jpg'">
+                            <h3><span class="composers">Daniel Pinkham</span><br><span class="song-titles">"Revelations"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/cDTgdRvmVac" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/bruch_mono.jpg" onMouseOver="this.src='img/bruch_full.jpg'" onMouseOut="this.src='img/bruch_mono.jpg'">
+                            <h3><span class="composers">Max Bruch</span><br><span class="song-titles">"Hymnus"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/zlXwN7q9hFw" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/handel_mono.jpg" onMouseOver="this.src='img/handel_full.jpg'" onMouseOut="this.src='img/handel_mono.jpg'">
+                            <h3><span class="composers">George Frideric Handel</span><br><span class="song-titles">"Allegro Maestoso"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/whRk8oF_fcg" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/husey1_mono.jpg" onMouseOver="this.src='img/husey1_full.jpg'" onMouseOut="this.src='img/husey1_mono.jpg'">
+                            <h3><span class="composers">Mark Husey</span><br><span class="song-titles">"Sortie Improvisée sur 'Salve Regina'"</span></h3>
+                        </div>
+                    </a>
+                    <!-- Let's keep this ugly code manageable -->
+                    <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/AN8x04a1KVU" class="col-xs-6 col-sm-4 col-lg-3 naked">
+                        <div class="media-thumbnails">  
+                            <img src="img/bach1_mono.jpg" onMouseOver="this.src='img/bach1_full.jpg'" onMouseOut="this.src='img/bach1_mono.jpg'">
+                            <h3><span class="composers">JS Bach</span><br><span class="song-titles">"Christe eleison"</span></h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section">
+        <div class="row">
+            <div class="col-md-6 say-hi">
+                <p><i>It was wonderful having you by, truly. Let's not make this a one-time thing. I feel like we really connected, you know, digitally speaking. I'd love to hear from you. We'll talk about whatever you want. Every once in a while, just</i></p>
+                <a href="mailto:placeholder@notreal.com" class=" say-hi btn btn-default btn-lg"><span class="network-name">Say Hi.</span></a>
+                <img src="img/husey_profile.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-      <div class="container">
-        <img src="images/bottom_brand.png" alt="One Million Lines" title="One Million Lines">
-      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; Mark Husey MMXIV</p>
+                </div>
+            </div>
+        </div>
     </footer>
-   
 
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div>
+                    <iframe width="100%" height="350" src=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <!-- Responsive Video Modal JavaScript -->
+    <script src="js/modal.js"></script>
+
+</body>
+
 </html>
