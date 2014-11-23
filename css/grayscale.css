@@ -301,7 +301,7 @@ a:focus {
 #media h2 {
     color: white;
     font-size: 84px;
-    margin-top: 70px;
+    margin: 29px 0 0 0;
 }
 
 .liquid-container {
@@ -413,6 +413,44 @@ h3 {
     margin-top: 43px;
 }
 
+@media(max-width:991px) {
+    .more-vids .btn {
+        margin-bottom: 29px;  
+    }
+
+}
+
+@media(max-width:767px) {
+    .more-vids .btn {
+        margin: 0;
+    }
+    .more-vids ul {
+        margin-bottom: 30px;
+    }
+    .content-section {
+        padding-top: 35px;
+    }
+    #contact {
+        padding-bottom: 50px;
+    }
+    #about {
+        padding-top: 35px;
+    }
+}
+
+@media(max-width:500px) {
+    #about h2 {
+        overflow: hidden;
+        padding-bottom: 12px;
+    }
+}
+
+@media(max-width:579px) {
+    #contact img {
+        margin-top: 20px;
+    }
+}
+
 .more-vids .btn-default:hover,
 .more-vids .btn-default:hover {
     border: 2px solid #fff;
@@ -439,7 +477,7 @@ ul.banner-social-buttons {
 @media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 28px;
         padding: 0;
     }
 
