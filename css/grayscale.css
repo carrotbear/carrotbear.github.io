@@ -534,6 +534,6 @@ body {
     background: url('../img/logo_grande.svg') 50% 50% no-repeat rgb(0,0,0);
 }
 
-.about a {
+#about a {
     color: #dca000;
 }
