@@ -537,3 +537,11 @@ body {
 #about a {
     color: #dca000;
 }
+
+.about-left {
+    padding-right: 10px;
+}
+
+.about-right {
+    padding-left: 10px;
+}
