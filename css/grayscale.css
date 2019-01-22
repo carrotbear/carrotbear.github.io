@@ -300,8 +300,7 @@ a:focus {
     background-color: #dca000;
 }
 
-.concert-section {
-    width: 100%;
+#concert {
     padding:0;
     background-color: #dca000; 
 }
