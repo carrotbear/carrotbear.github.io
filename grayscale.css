@@ -300,6 +300,14 @@ a:focus {
     background-color: #dca000;
 }
 
+.concert-section {
+    background-color: #dca000; 
+}
+
+.blend {
+    mix-blend-mode: multiply;
+}
+
 #media h2 {
     color: white;
     font-size: 84px;
