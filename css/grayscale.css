@@ -301,18 +301,24 @@ a:focus {
 }
 
 #concert {
-    padding:0;
-    background-color: #dca000; 
+    padding-top: 90px;
+    background-color: #fff; 
 }
 
-#concert h2 {
-    color: white;
-    font-size: 84px;
-    margin: 29px 0 0 0;
+#concert h4 {
+    color: #dca000;
+    font-family: 'league_spartanregular',sans-serif;
+    font-size: 30px;
+    margin-bottom:35px;
+}
+
+#concert p {
+    color: black;
 }
 
 .blend {
     mix-blend-mode: multiply;
+    margin-bottom: 25px;
 }
 
 #media h2 {
@@ -553,7 +559,15 @@ body {
     color: #dca000;
 }
 
+#concert a {
+    color: #dca000;
+}
 .about-left {
     padding-right: 15px;
 }
 
+.tiny-text {
+    font-size: 17px;
+    line-height: 23px;
+}
+    
