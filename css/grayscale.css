@@ -306,6 +306,12 @@ a:focus {
     background-color: #dca000; 
 }
 
+#concert h2 {
+    color: white;
+    font-size: 84px;
+    margin: 29px 0 0 0;
+}
+
 .blend {
     mix-blend-mode: multiply;
 }
