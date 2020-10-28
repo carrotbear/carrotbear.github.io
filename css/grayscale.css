@@ -577,6 +577,8 @@ body {
 }
 
 p.podcast {
-        color: white !important;
+    color: white !important;
+    font-family: 'league_spartanregular',sans-serif !important;
+    font-size: 25px !important;
 }
     
