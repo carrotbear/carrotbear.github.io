@@ -580,6 +580,7 @@ p.podcast {
     color: white !important;
     font-family: 'league_spartanregular',sans-serif !important;
     font-size: 25px !important;
+    margin-bottom: 0 !important;
 }
 
 a.podcast {
