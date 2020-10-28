@@ -574,6 +574,8 @@ body {
 .podcast {
     background-color: black;
     padding: 25px;
-    color: white;
 }
+
+p.podcast {
+        color: white;
     
