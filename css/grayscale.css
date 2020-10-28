@@ -572,6 +572,8 @@ body {
 }
 
 .podcast {
-    border: 5px solid #dca000;
+    background-color: black;
+    padding: 25px;
+    color: white;
 }
     
