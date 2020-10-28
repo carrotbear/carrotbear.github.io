@@ -596,3 +596,7 @@ a.podcast:hover {
     width: 100%;
     background: black;
 }
+
+.podcastrow .row {
+    margin: 0;
+}
