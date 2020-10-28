@@ -592,10 +592,7 @@ a.podcast:hover {
     text-decoration: underline !important;
 }
 
-div.col-md-6.podcast {
-    height: 100% !important;
-}
-
-div.col-md-3.podcast {
-    height: 100% !important;
+.podcastrow {
+    width: 100%;
+    background: black;
 }
