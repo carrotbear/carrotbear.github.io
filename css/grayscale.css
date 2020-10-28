@@ -577,6 +577,6 @@ body {
 }
 
 p.podcast {
-        color: white;
+        color: white !important;
 }
     
