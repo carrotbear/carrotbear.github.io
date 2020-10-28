@@ -581,4 +581,11 @@ p.podcast {
     font-family: 'league_spartanregular',sans-serif !important;
     font-size: 25px !important;
 }
-    
+
+a.podcast {
+    color: #dca000 !important;
+}
+
+a.podcast:hover {
+    text-decoration: underline !important;
+}
